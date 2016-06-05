@@ -1,0 +1,56 @@
+﻿[Variables]
+APP_NAME=%APP_NAME%
+
+[Page Titles]
+WELCOME_PAGE_TITLE=Введение
+LICENSE_PAGE_TITLE=Лицензия
+OFFER_PAGE_TITLE=Настройка
+PROGRESS_PAGE_TITLE=Установка
+FINISH_PAGE_TITLE=Сводка
+
+[Page Description]
+WELCOME_PAGE_DESC=Добро пожаловать в установщик %APP_NAME% 
+LICENSE_PAGE_DESC=Пожалуйста, ознакомьтесь с лицензионным соглашением конечного пользователя 
+OFFER_PAGE_DESC=Настройка программы
+PROGRESS_PAGE_DESC=Установка %APP_NAME%...
+FINISH_PAGE_DESC=Отчет об установке
+
+[welcomePage]
+WELCOME_TITLE=<p>Добро пожаловать</p><br><p id="welcome_app_name">%APP_NAME%</p><br><p id="welcome_ver">%VERSION%</p>
+WELCOME_TEXT_DESCRPITION=
+PRODUCT_LINKS=<span id="tos_link_span"><a id="terms_of_use" class="whiteText" target="_blank" onfocus="this.blur()" onclick="openBrowser(this.href);">Условия пользования</a></span><span id="links_separator" class="whiteText"> | </span><span id="privacy_link_span"><a id="privacy_policy" class="whiteText" target="_blank" onfocus="this.blur()" onclick="openBrowser(this.href);" >Политика конфиденциальности</a></span><span id="links_separator2" class="whiteText"> | </span><span id="eula_link_span"><a id="eulaLink" class="whiteText" target="_blank" onfocus="this.blur()" onclick="openBrowser(this.href);" >Лицензионное соглашение с конечным пользователем</a></span>
+
+[licensePage]
+LICENSE_TITLE=Лицензионное соглашение с конечным пользователем
+LICENSE_FOOTER=Если вы согласны с условиями соглашения, нажмите "%BUTTON_ACCEPT%", чтобы продолжить.<br />Для установки программного обеспечения необходимо принять условия Соглашения.
+PRIVACY_LINK=Политика конфиденциальности
+TOS_LINK=Условия пользования
+
+[progressPage]
+PROGRESS_TITLE=Установка в "Приложения"
+PROGRESS_STATUS=%PROGRESS%%
+
+[finishPage]
+FINISH_TITLE=Вы успешно установлен
+FINISH_DESC=%APP_NAME%
+
+[errorPage]
+ERROR_TITLE=<b>Установка %APP_NAME% не удалось</b><br/>Пожалуйста, убедитесь что вы подключены<br/>к Интернету и повторно запустите программу установки.<br>Чтобы удалить все программное обеспечение, установленные во время процесса установки, перейдите в папку "Приложения" и удалите их.
+
+[Buttons]
+BUTTON_BACK=Назад
+BUTTON_DECLINE=Не принимаю
+BUTTON_CLOSE=Закрыть
+BUTTON_CONTINUE=Продолжить
+BUTTON_GO_BACK=Вернуться
+BUTTON_ACCEPT=Принимаю
+BUTTON_ACCEPT_INSTALL_TEXT=Принять и установить
+BUTTON_NEXT=Следующая
+BUTTON_LEAVE=Выйти
+BUTTON_FINISH=Завершить
+BUTTON_SKIP=Перейти
+
+[Alerts]
+AUTHORIZITION_ALERT=Отказ в праве доступа, прекращение установки
+INSTALLATION_ALERT_TITLE=Не удается закрыть установщик
+INSTALLATION_ALERT=Дождитесь окончания процесса установки

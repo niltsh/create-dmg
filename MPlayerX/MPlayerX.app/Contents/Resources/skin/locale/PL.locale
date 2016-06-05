@@ -1,0 +1,56 @@
+[Variables]
+APP_NAME=%APP_NAME%
+
+[Page Titles]
+WELCOME_PAGE_TITLE=Wprowadzenie
+LICENSE_PAGE_TITLE=Licencja
+OFFER_PAGE_TITLE=Konfiguracja
+PROGRESS_PAGE_TITLE=Instalacja
+FINISH_PAGE_TITLE=Podsumowanie
+
+[Page Description]
+WELCOME_PAGE_DESC=Witamy w %APP_NAME%
+LICENSE_PAGE_DESC=Prosimy o przeczytanie naszej umowy licencyjnej
+OFFER_PAGE_DESC=Rozpoczynanie instalacji
+PROGRESS_PAGE_DESC=Instalowanie...
+FINISH_PAGE_DESC=Raport podsumowujący instalacji
+
+[welcomePage]
+WELCOME_TITLE=<p>Witamy</p><br><p id="welcome_app_name">%APP_NAME%</p><br><p id="welcome_ver">%VERSION%</p>
+WELCOME_TEXT_DESCRPITION=
+PRODUCT_LINKS=<span id="tos_link_span"><a id="terms_of_use" target="_blank" onfocus="this.blur()" onclick="openBrowser(this.href);" >Zasady korzystania</a></span><span id="links_separator"> | </span><span id="privacy_link_span"><a id="privacy_policy" target="_blank" onfocus="this.blur()" onclick="openBrowser(this.href);" >polityka prywatności</a></span><span id="links_separator2"> | </span><span id="eula_link_span"><a id="eulaLink" target="_blank" onfocus="this.blur()" onclick="openBrowser(this.href);" >umowa licencyjna</a></span>
+
+[licensePage]
+LICENSE_TITLE=Umowa licencyjna
+LICENSE_FOOTER=Jeśli akceptujesz warunki korzystania, kliknij "%BUTTON_ACCEPT%", by kontynuować.<br />Musisz zaakceptować umowę, aby zainstalować oprogramowanie.
+PRIVACY_LINK=Polityka prywatności
+TOS_LINK=Zasady korzystania
+
+[progressPage]
+PROGRESS_TITLE=Instalacja w "Aplikacje"
+PROGRESS_STATUS=%PROGRESS%%
+
+[finishPage]
+FINISH_TITLE=Pomyślnie zainstalowany
+FINISH_DESC=%APP_NAME%.
+
+[errorPage]
+ERROR_TITLE=<b>Instalacja %APP_NAME% nie udało</b><br/>sprawdź połączenie z Internetem<br/>i ponownie uruchom program instalacyjny.<br>Aby odinstalować wszystkie zainstalowane oprogramowanie w trakcie tego procesu instalacji, przejdź do folderu "Aplikacje" i usunąć je.
+
+[Buttons]
+BUTTON_BACK=Wróć
+BUTTON_DECLINE=Odrzuć
+BUTTON_CLOSE=Zamknij
+BUTTON_CONTINUE=Kontynuuj
+BUTTON_GO_BACK=Wróć
+BUTTON_ACCEPT=Akceptuj
+BUTTON_ACCEPT_INSTALL_TEXT=Akceptuj i zainstaluj
+BUTTON_NEXT=Dalej
+BUTTON_LEAVE=Wyjdź
+BUTTON_FINISH=Zakończ
+BUTTON_SKIP=Pomiń
+
+[Alerts]
+AUTHORIZITION_ALERT=Nie udało się dokonać autoryzacji, instalator zostanie zamknięty
+INSTALLATION_ALERT_TITLE=Nie można zamknąć instalatora
+INSTALLATION_ALERT=Proszę zaczekać na zakończenie procesu instalacji

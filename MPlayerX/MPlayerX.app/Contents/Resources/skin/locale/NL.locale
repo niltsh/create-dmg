@@ -1,0 +1,56 @@
+﻿[Variables]
+APP_NAME=%APP_NAME%
+
+[Page Titles]
+WELCOME_PAGE_TITLE=Introductie
+LICENSE_PAGE_TITLE=Licentie
+OFFER_PAGE_TITLE=Configureren
+PROGRESS_PAGE_TITLE=Installatie
+FINISH_PAGE_TITLE=Overzicht
+
+[Page Description]
+WELCOME_PAGE_DESC=Welkom bij het installatieprogramma van %APP_NAME%
+LICENSE_PAGE_DESC=Lees onze Eindgebruiker Licentie-overeenkomst
+OFFER_PAGE_DESC=Installatie wordt voorbereid
+PROGRESS_PAGE_DESC=%APP_NAME% wordt geïnstalleerd...
+FINISH_PAGE_DESC=Overzichtsrapport van de installatie
+
+[welcomePage]
+WELCOME_TITLE=<p>Welkom</p><br><p id="welcome_app_name">%APP_NAME%</p><br><p id="welcome_ver">%VERSION%</p>
+WELCOME_TEXT_DESCRPITION=
+PRODUCT_LINKS=<span id="tos_link_span"><a id="terms_of_use" class="whiteText" target="_blank" onfocus="this.blur()" onclick="openBrowser(this.href);">Gebruiksvoorwaarden</a></span><span id="links_separator" class="whiteText"> | </span><span id="privacy_link_span"><a id="privacy_policy" class="whiteText" target="_blank" onfocus="this.blur()" onclick="openBrowser(this.href);" >Privacy Beleid</a></span><span id="links_separator2" class="whiteText"> | </span><span id="eula_link_span"><a id="eulaLink" class="whiteText" target="_blank" onfocus="this.blur()" onclick="openBrowser(this.href);" >Eindgebruiker Licentie-overeenkomst</a></span>
+
+[licensePage]
+LICENSE_TITLE=Eindgebruiker Licentie-overeenkomst
+LICENSE_FOOTER=Als u de voorwaarden van de overeenkomst accepteert, klik dan op "%BUTTON_ACCEPT%" om verder te gaan.<br />U dient de overeenkomst te accepteren om de software te kunnen installeren.
+PRIVACY_LINK=Privacy Beleid
+TOS_LINK=Gebruiksvoorwaarden
+
+[progressPage]
+PROGRESS_TITLE=Installeren in "Applications"
+PROGRESS_STATUS=%PROGRESS%%
+
+[finishPage]
+FINISH_TITLE=Je hebt met succes geïnstalleerd
+FINISH_DESC=%APP_NAME%
+
+[errorPage]
+ERROR_TITLE=%APP_NAME% installatie is mislukt<br/>Controleer uw internetverbinding<br/>en voer het installatieprogramma opnieuw uit.<br>Als u alle software in deze installatie geïnstalleerd te verwijderen, ga dan naar "Applications" map en verwijder ze.
+
+[Buttons]
+BUTTON_BACK=Terug
+BUTTON_DECLINE=Afwijzen
+BUTTON_CLOSE=Afsluiten
+BUTTON_CONTINUE=Doorgaan
+BUTTON_GO_BACK=Ga terug
+BUTTON_ACCEPT=Accepteren
+BUTTON_ACCEPT_INSTALL_TEXT=Accepteren & Installeren
+BUTTON_NEXT=Volgende
+BUTTON_LEAVE=Verlaten
+BUTTON_FINISH=Voltooien
+BUTTON_SKIP=Overslaan
+
+[Alerts]
+AUTHORIZITION_ALERT=Autorisatie mislukt, de assistent zet de installatie stop
+INSTALLATION_ALERT_TITLE=Installatie-assistent kan niet gesloten worden
+INSTALLATION_ALERT=Even wachten tot het installatieproces compleet is

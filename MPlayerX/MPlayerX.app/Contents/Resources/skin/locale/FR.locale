@@ -1,0 +1,56 @@
+[Variables]
+APP_NAME=%APP_NAME%
+
+[Page Titles]
+WELCOME_PAGE_TITLE=Introduction
+LICENSE_PAGE_TITLE=Licence
+OFFER_PAGE_TITLE=Configuration
+PROGRESS_PAGE_TITLE=Installation
+FINISH_PAGE_TITLE=Résumé
+
+[Page Description]
+WELCOME_PAGE_DESC=Bienvenue à %APP_NAME%
+LICENSE_PAGE_DESC=Veuillez lire notre contrat de licence de l'utilisateur
+OFFER_PAGE_DESC=Configuration de l'installation
+PROGRESS_PAGE_DESC=Installation de...
+FINISH_PAGE_DESC=Résumé du rapport d'installation
+
+[welcomePage]
+WELCOME_TITLE=<p>Bienvenue</p><br><p id="welcome_app_name">%APP_NAME%</p><br><p id="welcome_ver">%VERSION%</p>
+WELCOME_TEXT_DESCRPITION=
+PRODUCT_LINKS=<span id="tos_link_span"><a id="terms_of_use" class="whiteText" target="_blank" onfocus="this.blur()" onclick="openBrowser(this.href);" >Conditions d'utilisation</a></span><span id="links_separator" class="whiteText"> | </span><span id="privacy_link_span"><a id="privacy_policy" class="whiteText" target="_blank" onfocus="this.blur()" onclick="openBrowser(this.href);" >Politique de confidentialité</a></span><span id="links_separator2" class="whiteText"> | </span><span id="eula_link_span"><a id="eulaLink" class="whiteText" target="_blank" onfocus="this.blur()" onclick="openBrowser(this.href);" >Contrat de licence de l'utilisateur</a></span>
+
+[licensePage]
+LICENSE_TITLE=Contrat de licence de l'utilisateur
+LICENSE_FOOTER=Si vous acceptez les conditions du contrat, cliquez sur "%BUTTON_ACCEPT%" pour continuer.<br />Vous devez accepter le contrat pour installer le logiciel.
+PRIVACY_LINK=Politique de confidentialité
+TOS_LINK=Conditions d'utilisation
+
+[progressPage]
+PROGRESS_TITLE=Installation dans "Applications"
+PROGRESS_STATUS=%PROGRESS%%
+
+[finishPage]
+FINISH_TITLE=Vous avez installé avec succès
+FINISH_DESC=%APP_NAME% 
+
+[errorPage]
+ERROR_TITLE=<b>l'installation %APP_NAME% échoué</b><br/>veuillez vérifier votre connexion Internet<br>et exécuter l'installeur de nouveau.<br>Pour désinstaller tous les logiciels installés pendant ce processus d'installation, s'il vous plaît aller à dossier "Applications" et de les supprimer.
+
+[Buttons]
+BUTTON_BACK=Précédent
+BUTTON_DECLINE=Refuser
+BUTTON_CLOSE=Fermer
+BUTTON_CONTINUE=Continuer
+BUTTON_GO_BACK=Retour
+BUTTON_ACCEPT=Accepter
+BUTTON_ACCEPT_INSTALL_TEXT=Accepter et Installer
+BUTTON_NEXT=Suivant
+BUTTON_LEAVE=Quitter
+BUTTON_FINISH=Terminer
+BUTTON_SKIP=Sauter
+
+[Alerts]
+AUTHORIZITION_ALERT=Autorisation refusée, l'installateur va se fermer
+INSTALLATION_ALERT_TITLE=Impossible de fermer l'installateur
+INSTALLATION_ALERT=Merci d'attendre la fin du processus d'installation

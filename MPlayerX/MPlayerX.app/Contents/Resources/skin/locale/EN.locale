@@ -1,0 +1,58 @@
+[Variables]
+APP_NAME=%APP_NAME%
+
+[Page Titles]
+WELCOME_PAGE_TITLE=Introduction
+LICENSE_PAGE_TITLE=License
+OFFER_PAGE_TITLE=Configure
+PROGRESS_PAGE_TITLE=Installation
+FINISH_PAGE_TITLE=Summary
+ERROR_PAGE_TITLE=Error
+
+[Page Description]
+WELCOME_PAGE_DESC=Welcome to %APP_NAME%
+LICENSE_PAGE_DESC=Please read our End User License Agreement
+OFFER_PAGE_DESC=Setting up installation
+PROGRESS_PAGE_DESC=Installing...
+FINISH_PAGE_DESC=Installation Summary Report
+ERROR_PAGE_DESC=Error Summary Report
+
+[welcomePage]
+WELCOME_TITLE=<p>Welcome to</p><br><p id="welcome_app_name">%APP_NAME%</p><br><p id="welcome_ver">%VERSION%</p>
+WELCOME_TEXT_DESCRPITION=
+PRODUCT_LINKS=<span id="tos_link_span"><a id="terms_of_use" target="_blank" onfocus="this.blur()" onclick="openBrowser(this.href);" >Terms of Use</a></span><span id="links_separator"> | </span><span id="privacy_link_span"><a id="privacy_policy" target="_blank" onfocus="this.blur()" onclick="openBrowser(this.href);" >Privacy Policy</a></span><span id="links_separator2"> | </span><span id="eula_link_span"><a id="eulaLink" target="_blank" onfocus="this.blur()" onclick="openBrowser(this.href);" >End User Licenese Agreement</a></span>
+
+[licensePage]
+LICENSE_TITLE=License Agreement
+LICENSE_FOOTER=If you accept the terms of the agreement, click "%BUTTON_ACCEPT%" to continue.<br />You must accept the Agreement to install the software.
+PRIVACY_LINK=Privacy Policy
+TOS_LINK=Terms of Use
+
+[progressPage]
+PROGRESS_TITLE=Installing in "Applications"
+PROGRESS_STATUS=%PROGRESS%%
+
+[finishPage]
+FINISH_TITLE=You've successfully installed
+FINISH_DESC=%APP_NAME%
+
+[errorPage]
+ERROR_TITLE=<b>%APP_NAME% Installation failed</b><br/>Please verify your internet connection<br>and re-run the installer.<br>To uninstall all softwares installed during this installation process, please go to "Applications" folder and remove them.
+
+[Buttons]
+BUTTON_BACK=Back
+BUTTON_DECLINE=Decline
+BUTTON_CLOSE=Close
+BUTTON_CONTINUE=Continue
+BUTTON_GO_BACK=Go Back
+BUTTON_ACCEPT=Accept
+BUTTON_ACCEPT_INSTALL_TEXT=Accept & Install
+BUTTON_NEXT=Next
+BUTTON_LEAVE=Leave
+BUTTON_FINISH=Finish
+BUTTON_SKIP=Skip
+
+[Alerts]
+AUTHORIZITION_ALERT=Authorization failure, installer will terminate
+INSTALLATION_ALERT_TITLE=Can not close the installer
+INSTALLATION_ALERT=Please wait for the installation process to complete

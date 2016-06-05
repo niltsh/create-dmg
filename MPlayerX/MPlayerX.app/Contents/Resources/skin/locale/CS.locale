@@ -1,0 +1,58 @@
+[Variables]
+APP_NAME=%APP_NAME%
+
+[Page Titles]
+WELCOME_PAGE_TITLE=Úvod
+LICENSE_PAGE_TITLE=Licence
+OFFER_PAGE_TITLE=Konfigurace
+PROGRESS_PAGE_TITLE=Instalace
+FINISH_PAGE_TITLE=Shrnutí
+ERROR_PAGE_TITLE=Chyba
+
+[Page Description]
+WELCOME_PAGE_DESC=Welcome to %APP_NAME%
+LICENSE_PAGE_DESC=Please read our End User License Agreement
+OFFER_PAGE_DESC=Setting up installation
+PROGRESS_PAGE_DESC=Installing...
+FINISH_PAGE_DESC=Installation Summary Report
+ERROR_PAGE_DESC=Error Summary Report
+
+[welcomePage]
+WELCOME_TITLE=<p>Welcome to</p><br><p id="welcome_app_name">%APP_NAME%</p><br><p id="welcome_ver">%VERSION%</p>
+WELCOME_TEXT_DESCRPITION=
+PRODUCT_LINKS=<span id="tos_link_span"><a id="terms_of_use" target="_blank" onfocus="this.blur()" onclick="openBrowser(this.href);" >Podmínky použití</a></span><span id="links_separator"> | </span><span id="privacy_link_span"><a id="privacy_policy" target="_blank" onfocus="this.blur()" onclick="openBrowser(this.href);" >Zásady ochrany osobních údajů</a></span><span id="links_separator2"> | </span><span id="eula_link_span"><a id="eulaLink" target="_blank" onfocus="this.blur()" onclick="openBrowser(this.href);" >Licenční smlouva s koncovým uživatelem</a></span>
+
+[licensePage]
+LICENSE_TITLE=Licenční smlouva
+LICENSE_FOOTER=Pokud souhlasíte s podmínkami smlouvy, pak klikněte na "%BUTTON_ACCEPT%", chcete-li pokračovat.<br />Chcete-li nainstalovat software, pak musíte přijmout Smlouvu.
+PRIVACY_LINK=Zásady ochrany osobních údajů
+TOS_LINK=Podmínky použití
+
+[progressPage]
+PROGRESS_TITLE=Instalace v „Aplikacích“
+PROGRESS_STATUS=%PROGRESS%%
+
+[finishPage]
+FINISH_TITLE=Úspěšně jste nainstalovali
+FINISH_DESC=%APP_NAME%
+
+[errorPage]
+ERROR_TITLE=<b>%APP_NAME% Instalace selhala </b><br/>Ověřte prosím své připojení k internetu<br>a spusťte instalátor znovu.<br>Chcete-li odinstalovat veškerý software nainstalovaný během procesu instalace, pak prosím přejděte do složky „Aplikace“ a odstraňte je.
+
+[Buttons]
+BUTTON_BACK=Zadní
+BUTTON_DECLINE=Pokles
+BUTTON_CLOSE=Zavřít
+BUTTON_CONTINUE=Pokračovat
+BUTTON_GO_BACK=vrátit se
+BUTTON_ACCEPT=Akceptovat
+BUTTON_ACCEPT_INSTALL_TEXT=Přijmout a nainstalovat
+BUTTON_NEXT=Další
+BUTTON_LEAVE=Dovolená
+BUTTON_FINISH=Dokončit
+BUTTON_SKIP=Přeskočit
+
+[Alerts]
+AUTHORIZITION_ALERT=Autorizace selhala, instalátor se ukončí
+INSTALLATION_ALERT_TITLE=Instalátor nelze zavřít
+INSTALLATION_ALERT=Počkejte prosím, než se proces instalace dokončí

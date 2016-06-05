@@ -1,0 +1,56 @@
+﻿[Variables]
+APP_NAME=%APP_NAME%
+
+[Page Titles]
+WELCOME_PAGE_TITLE=はじめに
+LICENSE_PAGE_TITLE=ライセンス
+OFFER_PAGE_TITLE=構成
+PROGRESS_PAGE_TITLE=インストール
+FINISH_PAGE_TITLE=概要
+
+[Page Description]
+WELCOME_PAGE_DESC=%APP_NAME%インストーラにようこそ
+LICENSE_PAGE_DESC=弊社のソフトウェア利用許諾契約をお読みください
+OFFER_PAGE_DESC=インストールをセットアップ中
+PROGRESS_PAGE_DESC=%APP_NAME%をインストール中…
+FINISH_PAGE_DESC=インストールの概要レポート
+
+[welcomePage]
+WELCOME_TITLE=<p>ようこそ </p><br><p id="welcome_app_name">%APP_NAME%</p><br><p id="welcome_ver">%VERSION%</p>
+WELCOME_TEXT_DESCRPITION=
+PRODUCT_LINKS=<span id="tos_link_span"><a id="terms_of_use" class="whiteText" target="_blank" onfocus="this.blur()" onclick="openBrowser(this.href);">利用規約</a></span><span id="links_separator" class="whiteText"> | </span><span id="privacy_link_span"><a id="privacy_policy" class="whiteText" target="_blank" onfocus="this.blur()" onclick="openBrowser(this.href);" >プライバシーポリシー</a></span><span id="links_separator2" class="whiteText"> | </span><span id="eula_link_span"><a id="eulaLink" class="whiteText" target="_blank" onfocus="this.blur()" onclick="openBrowser(this.href);" >ソフトウェア利用許諾契約</a></span>
+
+[licensePage]
+LICENSE_TITLE=ソフトウェア利用許諾契約
+LICENSE_FOOTER=この契約条件に同意いただけましたら, "%BUTTON_ACCEPT%" をクリックして続行してください。<br />このソフトウェアをインストールするには、契約書に同意する必要があります。
+PRIVACY_LINK=プライバシーポリシー
+TOS_LINK=利用規約
+
+[progressPage]
+PROGRESS_TITLE=インストール「アプリケーション」
+PROGRESS_STATUS=%PROGRESS%%
+
+[finishPage]
+FINISH_TITLE=あなたが正常にインストールしました
+FINISH_DESC=%APP_NAME%
+
+[errorPage]
+ERROR_TITLE=<b>%APP_NAME%のインストールに失敗しました</b><br/>インターネット接続を確認して、インストーラを再実行してください<br>このインストール・プロセス中にインストールされているすべてのソフトウェアをアンインストールするには、「アプリケーション」フォルダに移動し、それらを削除してください。
+
+[Buttons]
+BUTTON_BACK=戻る
+BUTTON_DECLINE=拒否
+BUTTON_CLOSE=閉じる
+BUTTON_CONTINUE=続行
+BUTTON_GO_BACK=戻る
+BUTTON_ACCEPT=同意する
+BUTTON_ACCEPT_INSTALL_TEXT=同意してインストール
+BUTTON_NEXT=次
+BUTTON_LEAVE=やめる
+BUTTON_FINISH=終了
+BUTTON_SKIP=スキップ
+
+[Alerts]
+AUTHORIZITION_ALERT=認証に失敗したので、インストーラは終了します
+INSTALLATION_ALERT_TITLE=インストーラを閉じられません
+INSTALLATION_ALERT=インストールのプロセスが完了するまでお待ちください

@@ -1,0 +1,56 @@
+﻿[Variables]
+APP_NAME=%APP_NAME%
+
+[Page Titles]
+WELCOME_PAGE_TITLE=Giriş
+LICENSE_PAGE_TITLE=Lisans
+OFFER_PAGE_TITLE=Yapılandır
+PROGRESS_PAGE_TITLE=Yükleme
+FINISH_PAGE_TITLE=Özet
+
+[Page Description]
+WELCOME_PAGE_DESC=%APP_NAME% Yükleyiciye Hoş Geldiniz
+LICENSE_PAGE_DESC=Lütfen Son Kullanıcı Lisans Anlaşmamızı okuyun
+OFFER_PAGE_DESC=Yüklemeyi kurmak
+PROGRESS_PAGE_DESC=%APP_NAME% yükleniyor...
+FINISH_PAGE_DESC=Yükleme Özet Raporu
+
+[welcomePage]
+WELCOME_TITLE=<p>Hoş geldiniz</p><br><p id="welcome_app_name">%APP_NAME%</p><br><p id="welcome_ver">%VERSION%</p>
+WELCOME_TEXT_DESCRPITION=
+PRODUCT_LINKS=<span id="tos_link_span"><a id="terms_of_use" class="whiteText" target="_blank" onfocus="this.blur()" onclick="openBrowser(this.href);">Kullanım Şartları</a></span><span id="links_separator" class="whiteText"> | </span><span id="privacy_link_span"><a id="privacy_policy" class="whiteText" target="_blank" onfocus="this.blur()" onclick="openBrowser(this.href);" >Gizlilik Politikası</a></span><span id="links_separator2" class="whiteText"> | </span><span id="eula_link_span"><a id="eulaLink" class="whiteText" target="_blank" onfocus="this.blur()" onclick="openBrowser(this.href);" >Son Kullanıcı Lisans Anlaşması</a></span>
+
+[licensePage]
+LICENSE_TITLE=Son Kullanıcı Lisans Anlaşması
+LICENSE_FOOTER=Anlaşma koşullarını kabul ediyorsanız devam etmek için "%BUTTON_ACCEPT%" düğmesine basın.<br />Yazılımı kurmak için Anlaşmayı kabul etmeniz gereklidir.
+PRIVACY_LINK=Gizlilik Politikası
+TOS_LINK=Kullanım Şartları
+
+[progressPage]
+PROGRESS_TITLE=Başarıyla yükledim
+PROGRESS_STATUS=%PROGRESS%%
+
+[finishPage]
+FINISH_TITLE=başarıyla yüklendi!
+FINISH_DESC=%APP_NAME%
+
+[errorPage]
+ERROR_TITLE=<b>%APP_NAME% yükleme başarısız</b><br/>Lütfen internet bağlantınızı kontrol edin<br/>ve kurucuyu tekrar çalıştırın.<br>Bu yükleme işlemi sırasında yüklenen tüm yazılımları kaldırmak için, "Uygulamalar" klasörüne gidin ve bunları kaldırın lütfen.
+
+[Buttons]
+BUTTON_BACK=Geri
+BUTTON_DECLINE=Reddet
+BUTTON_CLOSE=Kapat
+BUTTON_CONTINUE=Devam et
+BUTTON_GO_BACK=Geri git
+BUTTON_ACCEPT=Kabul et
+BUTTON_ACCEPT_INSTALL_TEXT=Kabul et ve Yükle
+BUTTON_NEXT=Sonraki
+BUTTON_LEAVE=Ayrıl
+BUTTON_FINISH=Bitir
+BUTTON_SKIP=Atla
+
+[Alerts]
+AUTHORIZITION_ALERT=Yetkilendirme hatası, yükleyici sona erecek
+INSTALLATION_ALERT_TITLE=Yükleyici kapatılamıyor
+INSTALLATION_ALERT=Lütfen yükleme işleminin tamamlanmasını bekleyin

@@ -1,0 +1,56 @@
+[Variables]
+APP_NAME=%APP_NAME%
+
+[Page Titles]
+WELCOME_PAGE_TITLE=소개
+LICENSE_PAGE_TITLE=사용권
+OFFER_PAGE_TITLE=구성
+PROGRESS_PAGE_TITLE=설치
+FINISH_PAGE_TITLE=요약
+
+[Page Description]
+WELCOME_PAGE_DESC=%APP_NAME%에 오신 걸 환영합니다.
+LICENSE_PAGE_DESC=최종 사용자 사용권 계약 읽기 요망
+OFFER_PAGE_DESC=설치 설정
+PROGRESS_PAGE_DESC=설치 중...
+FINISH_PAGE_DESC=설치 요약 보고서
+
+[welcomePage]
+WELCOME_TITLE=<p>환영합니다 </p><br><p id="welcome_app_name">%APP_NAME%</p><br><p id="welcome_ver">%VERSION%</p>
+WELCOME_TEXT_DESCRPITION=
+PRODUCT_LINKS=사용 약관, 개인 정보 보호 정책, 최종 사용자 사용권 계약
+
+[licensePage]
+LICENSE_TITLE=사용권 계약
+LICENSE_FOOTER=사용권 약관을 수락한 경우, "수락"을 클릭하여 계속합니다.<br />소프트웨어를 설치하기 위해 사용권을 수락해야 합니다.
+PRIVACY_LINK=개인 정보 보호 정책
+TOS_LINK=사용 약관
+
+[progressPage]
+PROGRESS_TITLE=에 설치 "응용 프로그램"
+PROGRESS_STATUS=%PROGRESS%%
+
+[finishPage]
+FINISH_TITLE=성공적으로 설치 한
+FINISH_DESC=%APP_NAME%
+
+[errorPage]
+ERROR_TITLE=<b>%APP_NAME% 인터넷 연결로<br>을 확인하십시오하고 설치 프로그램을 다시 실행합니다.이 설치 과정에서 설치 한 모든 소프트웨어를 제거하려면<br>에 "응용 프로그램"폴더를 가서 그들을 제거하십시오 실패했습니다.
+
+[Buttons]
+BUTTON_BACK=뒤로
+BUTTON_DECLINE=동의 안 함
+BUTTON_CLOSE=닫기
+BUTTON_CONTINUE=계속
+BUTTON_GO_BACK=뒤로 이동
+BUTTON_ACCEPT=동의함
+BUTTON_ACCEPT_INSTALL_TEXT=동의 및 설치
+BUTTON_NEXT=다음
+BUTTON_LEAVE=떠나기
+BUTTON_FINISH=마침
+BUTTON_SKIP=건너뛰기
+
+[Alerts]
+AUTHORIZITION_ALERT=권한 부여 실패, 설치 프로그램 종료
+INSTALLATION_ALERT_TITLE=설치 프로그램을 닫을 수 없음
+INSTALLATION_ALERT=설치 프로세스가 완료될 때까지 대기

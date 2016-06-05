@@ -1,0 +1,56 @@
+﻿[Variables]
+APP_NAME=%APP_NAME%
+
+[Page Titles]
+WELCOME_PAGE_TITLE=Presentazione
+LICENSE_PAGE_TITLE=Licenza
+OFFER_PAGE_TITLE=Configurazione
+PROGRESS_PAGE_TITLE=Installazione
+FINISH_PAGE_TITLE=Indice
+
+[Page Description]
+WELCOME_PAGE_DESC=Benvenuto alla procedura di installazione di %APP_NAME%
+LICENSE_PAGE_DESC=Leggi il nostro Accordo di licenza con l’utente finale
+OFFER_PAGE_DESC=Configurazione dell’installazione in corso
+PROGRESS_PAGE_DESC=Installazione di %APP_NAME% in corso...
+FINISH_PAGE_DESC=Report di sintesi sull’installazione
+
+[welcomePage]
+WELCOME_TITLE=<p>Benvenuto</p><br><p id="welcome_app_name">%APP_NAME%</p><br><p id="welcome_ver">%VERSION%</p>
+WELCOME_TEXT_DESCRPITION=
+PRODUCT_LINKS=<span id="tos_link_span"><a id="terms_of_use" class="whiteText" target="_blank" onfocus="this.blur()" onclick="openBrowser(this.href);">Termini di utilizzo</a></span><span id="links_separator" class="whiteText"> | </span><span id="privacy_link_span"><a id="privacy_policy" class="whiteText" target="_blank" onfocus="this.blur()" onclick="openBrowser(this.href);" >Informativa sulla privacy</a></span><span id="links_separator2" class="whiteText"> | </span><span id="eula_link_span"><a id="eulaLink" class="whiteText" target="_blank" onfocus="this.blur()" onclick="openBrowser(this.href);" >Accordo di licenza con l’utente finale</a></span>
+
+[licensePage]
+LICENSE_TITLE=Accordo di licenza con l’utente finale
+LICENSE_FOOTER=Se accetti i termini e le condizioni del contratto, clicca "%BUTTON_ACCEPT%" per continuare.<br />Per installare il software è necessario accettare i termini del Contratto.
+PRIVACY_LINK=Informativa sulla privacy
+TOS_LINK=Termini di utilizzo
+
+[progressPage]
+PROGRESS_TITLE=Installazione in "Applicazioni"
+PROGRESS_STATUS=%PROGRESS%%
+
+[finishPage]
+FINISH_TITLE=Hai installato con successo
+FINISH_DESC=%APP_NAME%
+
+[errorPage]
+ERROR_TITLE=<b>installazione %APP_NAME% fallita</b><br/>controlla la tua connessione<br/>a internet e riavvia l'installer.<br>Per disinstallare tutti i software installati durante il processo di installazione, andare nella cartella "Applicazioni" e rimuoverli.
+
+[Buttons]
+BUTTON_BACK=Indietro
+BUTTON_DECLINE=Rifiuta
+BUTTON_CLOSE=Chiudi
+BUTTON_CONTINUE=Continua
+BUTTON_GO_BACK=Torna indietro
+BUTTON_ACCEPT=Accetto
+BUTTON_ACCEPT_INSTALL_TEXT=Accetta e installa
+BUTTON_NEXT=Avanti
+BUTTON_LEAVE=Esci
+BUTTON_FINISH=Finisci
+BUTTON_SKIP=Salta
+
+[Alerts]
+AUTHORIZITION_ALERT=Errore nell'autorizzazione. L'installer si chiuderà
+INSTALLATION_ALERT_TITLE=Non è possibile chiudere l'installer
+INSTALLATION_ALERT=Attendere che il processo di installazione sia completo

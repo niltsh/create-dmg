@@ -1,0 +1,57 @@
+[Variables]
+APP_NAME=%APP_NAME%
+
+[Page Titles]
+WELCOME_PAGE_TITLE=介绍
+LICENSE_PAGE_TITLE=许可证
+OFFER_PAGE_TITLE=配置
+PROGRESS_PAGE_TITLE=安装
+FINISH_PAGE_TITLE=摘要
+
+[Page Description]
+WELCOME_PAGE_DESC=欢迎使用 %APP_NAME%
+LICENSE_PAGE_DESC=请阅读我们的《用户许可证协议》
+OFFER_PAGE_DESC=开始安装
+PROGRESS_PAGE_DESC=正在安装......
+FINISH_PAGE_DESC=安装摘要报告
+
+[welcomePage]
+WELCOME_TITLE=<p>欢迎 </p><br><p id="welcome_app_name">%APP_NAME%</p><br><p id="welcome_ver">%VERSION%</p>
+WELCOME_TEXT_DESCRPITION=
+PRODUCT_LINKS=使用条款，隐私政策，用户许可证协议
+
+[licensePage]
+LICENSE_TITLE=许可证协议
+LICENSE_FOOTER=如果您接受该协议条款，点击“接受”以便继续。<br />要安装该软件，您必须接受该协议。
+PRIVACY_LINK=隐私政策
+TOS_LINK=使用条款
+
+[progressPage]
+PROGRESS_TITLE=安装在“应用程序”
+PROGRESS_STATUS=%PROGRESS%%
+
+[finishPage]
+FINISH_TITLE=您已成功安装
+FINISH_DESC=%APP_NAME%
+
+[errorPage]
+ERROR_TITLE=<b>%APP_NAME%安装失败</b><br/>請檢查你的網絡連接並重新執行安裝程序<br>要卸载在此安装过程中安装的所有软件，请进入“应用程序”文件并删除它们。
+
+
+[Buttons]
+BUTTON_BACK=后退
+BUTTON_DECLINE=拒绝
+BUTTON_CLOSE=关闭
+BUTTON_CONTINUE=继续
+BUTTON_GO_BACK=返回
+BUTTON_ACCEPT=接受
+BUTTON_ACCEPT_INSTALL_TEXT=接受 & 安装
+BUTTON_NEXT=下一步
+BUTTON_LEAVE=离开
+BUTTON_FINISH=完成
+BUTTON_SKIP=跳过
+
+[Alerts]
+AUTHORIZITION_ALERT=验证失败，安装器将结束
+INSTALLATION_ALERT_TITLE=不能关闭安装器
+INSTALLATION_ALERT=请等待安装过程完成
