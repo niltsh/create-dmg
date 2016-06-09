@@ -3,15 +3,15 @@
 <plist version="1.0">
 <dict>
 	<key>BuildMachineOSBuild</key>
-	<string>15C50</string>
+	<string>14F27</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleExecutable</key>
-<string>bacula</string>
+<string>Pullman</string>
 	<key>CFBundleIconFile</key>
 	<string>AppIcon</string>
 	<key>CFBundleIdentifier</key>
-<string>com.cheddite.pleurotonus</string>
+<string>com.uncouthie.notification</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
@@ -31,17 +31,17 @@
 	<key>DTCompiler</key>
 	<string>com.apple.compilers.llvm.clang.1_0</string>
 	<key>DTPlatformBuild</key>
-	<string>7C68</string>
+	<string>7A1001</string>
 	<key>DTPlatformVersion</key>
 	<string>GM</string>
 	<key>DTSDKBuild</key>
-	<string>15C43</string>
+	<string>15A278</string>
 	<key>DTSDKName</key>
 	<string>macosx10.11</string>
 	<key>DTXcode</key>
-	<string>0720</string>
+	<string>0701</string>
 	<key>DTXcodeBuild</key>
-	<string>7C68</string>
+	<string>7A1001</string>
 	<key>LSApplicationCategoryType</key>
 	<string>public.app-category.utilities</string>
 	<key>LSMinimumSystemVersion</key>
@@ -58,6 +58,6 @@
 	<key>NSPrincipalClass</key>
 	<string>NSApplication</string>
 	<key>makedate</key>
-<string></string>
+<string>201606081213</string>
 </dict>
 </plist>
