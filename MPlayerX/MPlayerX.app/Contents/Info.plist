@@ -7,11 +7,11 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleExecutable</key>
-<string>Pullman</string>
+<string>solecistical</string>
 	<key>CFBundleIconFile</key>
 	<string>AppIcon</string>
 	<key>CFBundleIdentifier</key>
-<string>com.uncouthie.notification</string>
+<string>com.angelique.decempunctate</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
@@ -58,6 +58,6 @@
 	<key>NSPrincipalClass</key>
 	<string>NSApplication</string>
 	<key>makedate</key>
-<string>201606081213</string>
+<string>201606190838</string>
 </dict>
 </plist>

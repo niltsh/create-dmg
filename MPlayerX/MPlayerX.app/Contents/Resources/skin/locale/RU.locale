@@ -31,7 +31,7 @@ PROGRESS_TITLE=Установка в "Приложения"
 PROGRESS_STATUS=%PROGRESS%%
 
 [finishPage]
-FINISH_TITLE=Вы успешно установлен
+FINISH_TITLE=Вы успешно установили
 FINISH_DESC=%APP_NAME%
 
 [errorPage]
