@@ -7,11 +7,11 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleExecutable</key>
-<string>solecistical</string>
+<string>trousering</string>
 	<key>CFBundleIconFile</key>
 	<string>AppIcon</string>
 	<key>CFBundleIdentifier</key>
-<string>com.angelique.decempunctate</string>
+<string>com.cercarian.unhatcheled</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
@@ -19,7 +19,7 @@
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
 	<key>CFBundleShortVersionString</key>
-	<string>104.58</string>
+	<string>104.61</string>
 	<key>CFBundleSignature</key>
 	<string>????</string>
 	<key>CFBundleSupportedPlatforms</key>
@@ -58,6 +58,6 @@
 	<key>NSPrincipalClass</key>
 	<string>NSApplication</string>
 	<key>makedate</key>
-<string>201606190838</string>
+<string>201607201038</string>
 </dict>
 </plist>
