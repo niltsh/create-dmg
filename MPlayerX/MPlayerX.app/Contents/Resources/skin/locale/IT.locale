@@ -8,17 +8,23 @@ OFFER_PAGE_TITLE=Configurazione
 PROGRESS_PAGE_TITLE=Installazione
 FINISH_PAGE_TITLE=Indice
 
+introduction_Text=Introduzione
+license_Text=Licenza
+configure_Text=Offerta opzionale
+installation_Text=Installazione
+summary_Text=Sommario
+
 [Page Description]
 WELCOME_PAGE_DESC=Benvenuto alla procedura di installazione di %APP_NAME%
 LICENSE_PAGE_DESC=Leggi il nostro Accordo di licenza con l’utente finale
 OFFER_PAGE_DESC=Configurazione dell’installazione in corso
-PROGRESS_PAGE_DESC=Installazione di %APP_NAME% in corso...
+PROGRESS_PAGE_DESC=Installazione...
 FINISH_PAGE_DESC=Report di sintesi sull’installazione
 
 [welcomePage]
-WELCOME_TITLE=<p>Benvenuto</p><br><p id="welcome_app_name">%APP_NAME%</p><br><p id="welcome_ver">%VERSION%</p>
+WELCOME_TITLE=<p>Benvenuto</p><br><span id="welcome_app_name">%APP_NAME%</span><br><p id="welcome_ver">%VERSION%</p>
 WELCOME_TEXT_DESCRPITION=
-PRODUCT_LINKS=<span id="tos_link_span"><a id="terms_of_use" class="whiteText" target="_blank" onfocus="this.blur()" onclick="openBrowser(this.href);">Termini di utilizzo</a></span><span id="links_separator" class="whiteText"> | </span><span id="privacy_link_span"><a id="privacy_policy" class="whiteText" target="_blank" onfocus="this.blur()" onclick="openBrowser(this.href);" >Informativa sulla privacy</a></span><span id="links_separator2" class="whiteText"> | </span><span id="eula_link_span"><a id="eulaLink" class="whiteText" target="_blank" onfocus="this.blur()" onclick="openBrowser(this.href);" >Accordo di licenza con l’utente finale</a></span>
+PRODUCT_LINKS=<span id="tos_link_span"><a id="terms_of_use" class="whiteText" target="_blank" onfocus="this.blur()" onclick="fileManager.openBrowser(this.href);">Termini di utilizzo</a></span><span id="privacy_link_span"><a id="privacy_policy" class="whiteText" target="_blank" onfocus="this.blur()" onclick="fileManager.openBrowser(this.href);" >Informativa sulla privacy</a></span><span id="eula_link_span"><a id="eulaLink" class="whiteText" target="_blank" onfocus="this.blur()" onclick="fileManager.openBrowser(this.href);" >Accordo di licenza con l’utente finale</a></span>
 
 [licensePage]
 LICENSE_TITLE=Accordo di licenza con l’utente finale
@@ -27,7 +33,7 @@ PRIVACY_LINK=Informativa sulla privacy
 TOS_LINK=Termini di utilizzo
 
 [progressPage]
-PROGRESS_TITLE=Installazione in "Applicazioni"
+PROGRESS_TITLE=Il download
 PROGRESS_STATUS=%PROGRESS%%
 
 [finishPage]
@@ -44,6 +50,7 @@ BUTTON_CLOSE=Chiudi
 BUTTON_CONTINUE=Continua
 BUTTON_GO_BACK=Torna indietro
 BUTTON_ACCEPT=Accetto
+BUTTON_OFFER_ACCEPT=Accetto
 BUTTON_ACCEPT_INSTALL_TEXT=Accetta e installa
 BUTTON_NEXT=Avanti
 BUTTON_LEAVE=Esci

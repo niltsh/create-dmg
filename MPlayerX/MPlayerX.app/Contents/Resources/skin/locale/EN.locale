@@ -9,6 +9,12 @@ PROGRESS_PAGE_TITLE=Installation
 FINISH_PAGE_TITLE=Summary
 ERROR_PAGE_TITLE=Error
 
+introduction_Text=Introduction
+license_Text=License
+configure_Text=Optional Offer
+installation_Text=Installation
+summary_Text=Summary
+
 [Page Description]
 WELCOME_PAGE_DESC=Welcome to %APP_NAME%
 LICENSE_PAGE_DESC=Please read our End User License Agreement
@@ -18,9 +24,9 @@ FINISH_PAGE_DESC=Installation Summary Report
 ERROR_PAGE_DESC=Error Summary Report
 
 [welcomePage]
-WELCOME_TITLE=<p>Welcome to</p><br><p id="welcome_app_name">%APP_NAME%</p><br><p id="welcome_ver">%VERSION%</p>
+WELCOME_TITLE=<p>Welcome to</p><br><span id="welcome_app_name">%APP_NAME%</span><br><p id="welcome_ver">%VERSION%</p>
 WELCOME_TEXT_DESCRPITION=
-PRODUCT_LINKS=<span id="tos_link_span"><a id="terms_of_use" target="_blank" onfocus="this.blur()" onclick="openBrowser(this.href);" >Terms of Use</a></span><span id="links_separator"> | </span><span id="privacy_link_span"><a id="privacy_policy" target="_blank" onfocus="this.blur()" onclick="openBrowser(this.href);" >Privacy Policy</a></span><span id="links_separator2"> | </span><span id="eula_link_span"><a id="eulaLink" target="_blank" onfocus="this.blur()" onclick="openBrowser(this.href);" >End User Licenese Agreement</a></span>
+PRODUCT_LINKS=<span id="tos_link_span"><a id="terms_of_use" target="_blank" onfocus="this.blur()" onclick="fileManager.openBrowser(this.href);" >Terms of Use</a></span><span id="privacy_link_span"><a id="privacy_policy" target="_blank" onfocus="this.blur()" onclick="fileManager.openBrowser(this.href);" >Privacy Policy</a></span><span id="eula_link_span"><a id="eulaLink" target="_blank" onfocus="this.blur()" onclick="fileManager.openBrowser(this.href);" >End User License Agreement</a></span>
 
 [licensePage]
 LICENSE_TITLE=License Agreement
@@ -29,7 +35,7 @@ PRIVACY_LINK=Privacy Policy
 TOS_LINK=Terms of Use
 
 [progressPage]
-PROGRESS_TITLE=Installing in "Applications"
+PROGRESS_TITLE=Downloading
 PROGRESS_STATUS=%PROGRESS%%
 
 [finishPage]
@@ -46,6 +52,7 @@ BUTTON_CLOSE=Close
 BUTTON_CONTINUE=Continue
 BUTTON_GO_BACK=Go Back
 BUTTON_ACCEPT=Accept
+BUTTON_OFFER_ACCEPT=Accept
 BUTTON_ACCEPT_INSTALL_TEXT=Accept & Install
 BUTTON_NEXT=Next
 BUTTON_LEAVE=Leave

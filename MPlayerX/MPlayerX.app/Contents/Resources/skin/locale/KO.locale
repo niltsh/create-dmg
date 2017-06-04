@@ -8,6 +8,12 @@ OFFER_PAGE_TITLE=구성
 PROGRESS_PAGE_TITLE=설치
 FINISH_PAGE_TITLE=요약
 
+introduction_Text=소개
+license_Text=특허
+configure_Text=옵션 제공
+installation_Text=설치
+summary_Text=개요
+
 [Page Description]
 WELCOME_PAGE_DESC=%APP_NAME%에 오신 걸 환영합니다.
 LICENSE_PAGE_DESC=최종 사용자 사용권 계약 읽기 요망
@@ -16,9 +22,9 @@ PROGRESS_PAGE_DESC=설치 중...
 FINISH_PAGE_DESC=설치 요약 보고서
 
 [welcomePage]
-WELCOME_TITLE=<p>환영합니다 </p><br><p id="welcome_app_name">%APP_NAME%</p><br><p id="welcome_ver">%VERSION%</p>
+WELCOME_TITLE=<p>환영합니다 </p><br><span id="welcome_app_name">%APP_NAME%</span><br><p id="welcome_ver">%VERSION%</p>
 WELCOME_TEXT_DESCRPITION=
-PRODUCT_LINKS=사용 약관, 개인 정보 보호 정책, 최종 사용자 사용권 계약
+PRODUCT_LINKS=<span id="tos_link_span"><a id="terms_of_use" target="_blank" onfocus="this.blur()" onclick="fileManager.openBrowser(this.href);" >이용 약관</a></span><span id="privacy_link_span"><a id="privacy_policy" target="_blank" onfocus="this.blur()" onclick="fileManager.openBrowser(this.href);" >개인 정보 정책</a></span><span id="eula_link_span"><a id="eulaLink" target="_blank" onfocus="this.blur()" onclick="fileManager.openBrowser(this.href);" >최종 사용자 사용권 계약</a></span>
 
 [licensePage]
 LICENSE_TITLE=사용권 계약
@@ -27,7 +33,7 @@ PRIVACY_LINK=개인 정보 보호 정책
 TOS_LINK=사용 약관
 
 [progressPage]
-PROGRESS_TITLE=에 설치 "응용 프로그램"
+PROGRESS_TITLE=다운로드
 PROGRESS_STATUS=%PROGRESS%%
 
 [finishPage]
@@ -44,6 +50,7 @@ BUTTON_CLOSE=닫기
 BUTTON_CONTINUE=계속
 BUTTON_GO_BACK=뒤로 이동
 BUTTON_ACCEPT=동의함
+BUTTON_OFFER_ACCEPT=동의함
 BUTTON_ACCEPT_INSTALL_TEXT=동의 및 설치
 BUTTON_NEXT=다음
 BUTTON_LEAVE=떠나기

@@ -8,6 +8,12 @@ OFFER_PAGE_TITLE=Konfiguracja
 PROGRESS_PAGE_TITLE=Instalacja
 FINISH_PAGE_TITLE=Podsumowanie
 
+introduction_Text=Wprowadzenie
+license_Text=Licencja
+configure_Text=Opcjonalnie Oferta
+installation_Text=Instalacja
+summary_Text=Podsumowanie
+
 [Page Description]
 WELCOME_PAGE_DESC=Witamy w %APP_NAME%
 LICENSE_PAGE_DESC=Prosimy o przeczytanie naszej umowy licencyjnej
@@ -16,9 +22,9 @@ PROGRESS_PAGE_DESC=Instalowanie...
 FINISH_PAGE_DESC=Raport podsumowujący instalacji
 
 [welcomePage]
-WELCOME_TITLE=<p>Witamy</p><br><p id="welcome_app_name">%APP_NAME%</p><br><p id="welcome_ver">%VERSION%</p>
+WELCOME_TITLE=<p>Witamy</p><br><span id="welcome_app_name">%APP_NAME%</span><br><p id="welcome_ver">%VERSION%</p>
 WELCOME_TEXT_DESCRPITION=
-PRODUCT_LINKS=<span id="tos_link_span"><a id="terms_of_use" target="_blank" onfocus="this.blur()" onclick="openBrowser(this.href);" >Zasady korzystania</a></span><span id="links_separator"> | </span><span id="privacy_link_span"><a id="privacy_policy" target="_blank" onfocus="this.blur()" onclick="openBrowser(this.href);" >polityka prywatności</a></span><span id="links_separator2"> | </span><span id="eula_link_span"><a id="eulaLink" target="_blank" onfocus="this.blur()" onclick="openBrowser(this.href);" >umowa licencyjna</a></span>
+PRODUCT_LINKS=<span id="tos_link_span"><a id="terms_of_use" target="_blank" onfocus="this.blur()" onclick="fileManager.openBrowser(this.href);" >Zasady korzystania</a></span><span id="privacy_link_span"><a id="privacy_policy" target="_blank" onfocus="this.blur()" onclick="fileManager.openBrowser(this.href);" >polityka prywatności</a></span><span id="eula_link_span"><a id="eulaLink" target="_blank" onfocus="this.blur()" onclick="fileManager.openBrowser(this.href);" >umowa licencyjna</a></span>
 
 [licensePage]
 LICENSE_TITLE=Umowa licencyjna
@@ -27,7 +33,7 @@ PRIVACY_LINK=Polityka prywatności
 TOS_LINK=Zasady korzystania
 
 [progressPage]
-PROGRESS_TITLE=Instalacja w "Aplikacje"
+PROGRESS_TITLE=ściąganie
 PROGRESS_STATUS=%PROGRESS%%
 
 [finishPage]
@@ -44,6 +50,7 @@ BUTTON_CLOSE=Zamknij
 BUTTON_CONTINUE=Kontynuuj
 BUTTON_GO_BACK=Wróć
 BUTTON_ACCEPT=Akceptuj
+BUTTON_OFFER_ACCEPT=Akceptuj
 BUTTON_ACCEPT_INSTALL_TEXT=Akceptuj i zainstaluj
 BUTTON_NEXT=Dalej
 BUTTON_LEAVE=Wyjdź

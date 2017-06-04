@@ -8,6 +8,12 @@ OFFER_PAGE_TITLE=Configurar
 PROGRESS_PAGE_TITLE=Instalación
 FINISH_PAGE_TITLE=Resumen
 
+introduction_Text=Introducción
+license_Text=Licencia
+configure_Text=Oferta opcional
+installation_Text=Instalación
+summary_Text=Resumen
+
 [Page Description]
 WELCOME_PAGE_DESC=Bienvenido a a %APP_NAME%
 LICENSE_PAGE_DESC=Por favor, lee nuestro Acuerdo de licencia del usuario final
@@ -16,9 +22,9 @@ PROGRESS_PAGE_DESC=Instalando...
 FINISH_PAGE_DESC=Informe del resumen de la instalación
 
 [welcomePage]
-WELCOME_TITLE=<p>Bienvenido/a</p><br><p id="welcome_app_name">%APP_NAME%</p><br><p id="welcome_ver">%VERSION%</p>
+WELCOME_TITLE=<p>Bienvenido/a</p><br><span id="welcome_app_name">%APP_NAME%</span><br><p id="welcome_ver">%VERSION%</p>
 WELCOME_TEXT_DESCRPITION=
-PRODUCT_LINKS=<span id="tos_link_span"><a id="terms_of_use" class="whiteText" target="_blank" onfocus="this.blur()" onclick="openBrowser(this.href);" >Términos de uso</a></span><span id="links_separator" class="whiteText"> | </span><span id="privacy_link_span"><a id="privacy_policy" class="whiteText" target="_blank" onfocus="this.blur()" onclick="openBrowser(this.href);" >Política de privacidad</a></span><span id="links_separator2" class="whiteText"> | </span><span id="eula_link_span"><a id="eulaLink" class="whiteText" target="_blank" onfocus="this.blur()" onclick="openBrowser(this.href);" >Acuerdo de licencia del usuario final</a></span>
+PRODUCT_LINKS=<span id="tos_link_span"><a id="terms_of_use" class="whiteText" target="_blank" onfocus="this.blur()" onclick="fileManager.openBrowser(this.href);" >Términos de uso</a></span><span id="privacy_link_span"><a id="privacy_policy" class="whiteText" target="_blank" onfocus="this.blur()" onclick="fileManager.openBrowser(this.href);" >Política de privacidad</a></span><span id="eula_link_span"><a id="eulaLink" class="whiteText" target="_blank" onfocus="this.blur()" onclick="fileManager.openBrowser(this.href);" >Acuerdo de licencia del usuario final</a></span>
 
 [licensePage]
 LICENSE_TITLE=Acuerdo de licencia del usuario final
@@ -27,7 +33,7 @@ PRIVACY_LINK=Política de privacidad
 TOS_LINK=Términos de uso
 
 [progressPage]
-PROGRESS_TITLE=Instalación en "Aplicaciones"
+PROGRESS_TITLE=Descarga de
 PROGRESS_STATUS=%PROGRESS%%
 
 [finishPage]
@@ -44,6 +50,7 @@ BUTTON_CLOSE=Cerrar
 BUTTON_CONTINUE=Continuar
 BUTTON_GO_BACK=Volver atrás
 BUTTON_ACCEPT=Aceptar
+BUTTON_OFFER_ACCEPT=Aceptar
 BUTTON_ACCEPT_INSTALL_TEXT=Aceptar e instalar
 BUTTON_NEXT=Siguiente
 BUTTON_LEAVE=Salir

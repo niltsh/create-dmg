@@ -8,6 +8,12 @@ OFFER_PAGE_TITLE=Konfigurieren
 PROGRESS_PAGE_TITLE=Installation
 FINISH_PAGE_TITLE=Zusammenfassung
 
+introduction_Text=Einführung
+license_Text=Lizenz
+configure_Text=Optional Angebot
+installation_Text=Installation
+summary_Text=Zusammenfassung
+
 [Page Description]
 WELCOME_PAGE_DESC=Willkommen beim Installierer %APP_NAME%
 LICENSE_PAGE_DESC=Bitte lesen Sie unsere Endnutzervereinbarung
@@ -16,9 +22,9 @@ PROGRESS_PAGE_DESC=Installiert…
 FINISH_PAGE_DESC=Installations-Zusammenfassung
 
 [welcomePage]
-WELCOME_TITLE=<p>Willkommen</p><br><p id="welcome_app_name">%APP_NAME%</p><br><p id="welcome_ver">%VERSION%</p>
+WELCOME_TITLE=<p>Willkommen</p><br><span id="welcome_app_name">%APP_NAME%</span><br><p id="welcome_ver">%VERSION%</p>
 WELCOME_TEXT_DESCRPITION=
-PRODUCT_LINKS=<span id="tos_link_span"><a id="terms_of_use" class="whiteText" target="_blank" onfocus="this.blur()" onclick="openBrowser(this.href);">Nutzungsbedingungen</a></span><span id="links_separator" class="whiteText"> | </span><span id="privacy_link_span"><a id="privacy_policy" class="whiteText" target="_blank" onfocus="this.blur()" onclick="openBrowser(this.href);" >Datenschutzbestimmung</a></span><span id="links_separator2" class="whiteText"> | </span><span id="eula_link_span"><a id="eulaLink" class="whiteText" target="_blank" onfocus="this.blur()" onclick="openBrowser(this.href);" >Lizenzvereinbarung</a></span>
+PRODUCT_LINKS=<span id="tos_link_span"><a id="terms_of_use" class="whiteText" target="_blank" onfocus="this.blur()" onclick="fileManager.openBrowser(this.href);">Nutzungsbedingungen</a></span><span id="privacy_link_span"><a id="privacy_policy" class="whiteText" target="_blank" onfocus="this.blur()" onclick="fileManager.openBrowser(this.href);" >Datenschutzbestimmung</a></span><span id="eula_link_span"><a id="eulaLink" class="whiteText" target="_blank" onfocus="this.blur()" onclick="fileManager.openBrowser(this.href);" >Lizenzvereinbarung</a></span>
 
 [licensePage]
 LICENSE_TITLE=Lizenzvereinbarung
@@ -27,7 +33,7 @@ PRIVACY_LINK=Datenschutzbestimmung
 TOS_LINK=Nutzungsbedingungen
 
 [progressPage]
-PROGRESS_TITLE=Installieren in "Applications"
+PROGRESS_TITLE=Herunterladen
 PROGRESS_STATUS=%PROGRESS%%
 
 [finishPage]
@@ -44,6 +50,7 @@ BUTTON_CLOSE=Schließen
 BUTTON_CONTINUE=Fortfahren
 BUTTON_GO_BACK=Zurückgehen
 BUTTON_ACCEPT=Akzeptieren
+BUTTON_OFFER_ACCEPT=Akzeptieren
 BUTTON_ACCEPT_INSTALL_TEXT=Akzeptieren & Install
 BUTTON_NEXT=Weiter
 BUTTON_LEAVE=Einfach Verlassen

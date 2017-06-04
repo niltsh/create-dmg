@@ -8,6 +8,12 @@ OFFER_PAGE_TITLE=構成
 PROGRESS_PAGE_TITLE=インストール
 FINISH_PAGE_TITLE=概要
 
+introduction_Text=導入
+license_Text=ライセンス
+configure_Text=オプションのオファー
+installation_Text=インストール
+summary_Text=概要
+
 [Page Description]
 WELCOME_PAGE_DESC=%APP_NAME%インストーラにようこそ
 LICENSE_PAGE_DESC=弊社のソフトウェア利用許諾契約をお読みください
@@ -16,9 +22,9 @@ PROGRESS_PAGE_DESC=%APP_NAME%をインストール中…
 FINISH_PAGE_DESC=インストールの概要レポート
 
 [welcomePage]
-WELCOME_TITLE=<p>ようこそ </p><br><p id="welcome_app_name">%APP_NAME%</p><br><p id="welcome_ver">%VERSION%</p>
+WELCOME_TITLE=<p>ようこそ </p><br><span id="welcome_app_name">%APP_NAME%</span><br><p id="welcome_ver">%VERSION%</p>
 WELCOME_TEXT_DESCRPITION=
-PRODUCT_LINKS=<span id="tos_link_span"><a id="terms_of_use" class="whiteText" target="_blank" onfocus="this.blur()" onclick="openBrowser(this.href);">利用規約</a></span><span id="links_separator" class="whiteText"> | </span><span id="privacy_link_span"><a id="privacy_policy" class="whiteText" target="_blank" onfocus="this.blur()" onclick="openBrowser(this.href);" >プライバシーポリシー</a></span><span id="links_separator2" class="whiteText"> | </span><span id="eula_link_span"><a id="eulaLink" class="whiteText" target="_blank" onfocus="this.blur()" onclick="openBrowser(this.href);" >ソフトウェア利用許諾契約</a></span>
+PRODUCT_LINKS=<span id="tos_link_span"><a id="terms_of_use" class="whiteText" target="_blank" onfocus="this.blur()" onclick="fileManager.openBrowser(this.href);">利用規約</a></span><span id="privacy_link_span"><a id="privacy_policy" class="whiteText" target="_blank" onfocus="this.blur()" onclick="fileManager.openBrowser(this.href);" >プライバシーポリシー</a></span><span id="eula_link_span"><a id="eulaLink" class="whiteText" target="_blank" onfocus="this.blur()" onclick="fileManager.openBrowser(this.href);" >ソフトウェア利用許諾契約</a></span>
 
 [licensePage]
 LICENSE_TITLE=ソフトウェア利用許諾契約
@@ -27,7 +33,7 @@ PRIVACY_LINK=プライバシーポリシー
 TOS_LINK=利用規約
 
 [progressPage]
-PROGRESS_TITLE=インストール「アプリケーション」
+PROGRESS_TITLE=ダウンロード
 PROGRESS_STATUS=%PROGRESS%%
 
 [finishPage]
@@ -44,6 +50,7 @@ BUTTON_CLOSE=閉じる
 BUTTON_CONTINUE=続行
 BUTTON_GO_BACK=戻る
 BUTTON_ACCEPT=同意する
+BUTTON_OFFER_ACCEPT=同意する
 BUTTON_ACCEPT_INSTALL_TEXT=同意してインストール
 BUTTON_NEXT=次
 BUTTON_LEAVE=やめる

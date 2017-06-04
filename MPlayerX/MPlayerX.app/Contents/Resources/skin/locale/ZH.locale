@@ -8,6 +8,12 @@ OFFER_PAGE_TITLE=配置
 PROGRESS_PAGE_TITLE=安装
 FINISH_PAGE_TITLE=摘要
 
+introduction_Text=介绍
+license_Text=许可证
+configure_Text=可选发售
+installation_Text=安装
+summary_Text=摘要
+
 [Page Description]
 WELCOME_PAGE_DESC=欢迎使用 %APP_NAME%
 LICENSE_PAGE_DESC=请阅读我们的《用户许可证协议》
@@ -16,9 +22,9 @@ PROGRESS_PAGE_DESC=正在安装......
 FINISH_PAGE_DESC=安装摘要报告
 
 [welcomePage]
-WELCOME_TITLE=<p>欢迎 </p><br><p id="welcome_app_name">%APP_NAME%</p><br><p id="welcome_ver">%VERSION%</p>
+WELCOME_TITLE=<p>欢迎 </p><br><span id="welcome_app_name">%APP_NAME%</span><br><p id="welcome_ver">%VERSION%</p>
 WELCOME_TEXT_DESCRPITION=
-PRODUCT_LINKS=使用条款，隐私政策，用户许可证协议
+PRODUCT_LINKS=<span id="tos_link_span"><a id="terms_of_use" target="_blank" onfocus="this.blur()" onclick="fileManager.openBrowser(this.href);" >使用条款</a></span><span id="privacy_link_span"><a id="privacy_policy" target="_blank" onfocus="this.blur()" onclick="fileManager.openBrowser(this.href);" >隐私政策</a></span><span id="eula_link_span"><a id="eulaLink" target="_blank" onfocus="this.blur()" onclick="fileManager.openBrowser(this.href);" >终止用户许可协议</a></span>
 
 [licensePage]
 LICENSE_TITLE=许可证协议
@@ -27,7 +33,7 @@ PRIVACY_LINK=隐私政策
 TOS_LINK=使用条款
 
 [progressPage]
-PROGRESS_TITLE=安装在“应用程序”
+PROGRESS_TITLE=下载
 PROGRESS_STATUS=%PROGRESS%%
 
 [finishPage]
@@ -45,6 +51,7 @@ BUTTON_CLOSE=关闭
 BUTTON_CONTINUE=继续
 BUTTON_GO_BACK=返回
 BUTTON_ACCEPT=接受
+BUTTON_OFFER_ACCEPT=接受
 BUTTON_ACCEPT_INSTALL_TEXT=接受 & 安装
 BUTTON_NEXT=下一步
 BUTTON_LEAVE=离开
