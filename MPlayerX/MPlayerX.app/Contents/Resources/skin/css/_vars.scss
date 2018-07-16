@@ -1,0 +1,81 @@
+// COLORS
+$blue: #1E90FF;
+
+$white: white;
+
+// FONTS
+$general-font: "HelveticaNeue-Light", Geneva, sans-serif;
+
+// HELPER CLASSES AND MIXINS
+@mixin button ($color: white) {
+    cursor: default;
+	outline: 0;
+	text-align: center;
+	background: -webkit-linear-gradient(top, $color, darken($color, 7.5%));
+	border: 1px solid silver;
+	border-radius: 5px;
+	width: 100px;
+	height: 20px;
+	line-height: 20px;
+	color: black;
+
+	&:active {
+	    background: -webkit-linear-gradient(top, $blue, darken($blue, 7.5%));
+	    color: rgba($white, 0.75);
+	}
+}
+
+.greyButton, .colorButton{
+    @include button;
+}
+
+.greyButton {
+	margin-right: 10px;
+}
+
+.alignright {
+  float: right
+}
+
+.alignleft {
+  float: left
+}
+
+%centerMeDaddy {
+	left: 50%;
+	transform: translateX(-50%);
+	-webkit-transform: translateX(-50%);
+}
+
+%central {
+	top: 50%;
+	left: 50%;
+	transform: translateX(-50%) translateY(-50%);
+	-webkit-transform: translateX(-50%) translateY(-50%);
+}
+
+// ANIMATIONS
+
+@keyframes bounce_installingAnimation{
+	0%{
+		transform:scale(1);
+		color:#999999;
+	}
+
+	100%{
+		transform:scale(.5);
+		color: white;
+	}
+}
+
+@-webkit-keyframes bounce_installingAnimation{
+	0%{
+		-webkit-transform:scale(1);
+		color:#999999;
+	}
+
+	100%{
+		-webkit-transform:scale(.5);
+		color: white;
+	}
+}	

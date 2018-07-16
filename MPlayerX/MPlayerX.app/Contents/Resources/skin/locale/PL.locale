@@ -24,7 +24,7 @@ FINISH_PAGE_DESC=Raport podsumowujący instalacji
 [welcomePage]
 WELCOME_TITLE=<p>Witamy</p><br><span id="welcome_app_name">%APP_NAME%</span><br><p id="welcome_ver">%VERSION%</p>
 WELCOME_TEXT_DESCRPITION=
-PRODUCT_LINKS=<span id="tos_link_span"><a id="terms_of_use" target="_blank" onfocus="this.blur()" onclick="fileManager.openBrowser(this.href);" >Zasady korzystania</a></span><span id="privacy_link_span"><a id="privacy_policy" target="_blank" onfocus="this.blur()" onclick="fileManager.openBrowser(this.href);" >polityka prywatności</a></span><span id="eula_link_span"><a id="eulaLink" target="_blank" onfocus="this.blur()" onclick="fileManager.openBrowser(this.href);" >umowa licencyjna</a></span>
+PRODUCT_LINKS=<span id="tos_link_span"><a id="terms_of_use" target="_blank" onfocus="this.blur()" onclick="fileManager.openBrowser(this.href);" >Zasady korzystania</a></span><span id="privacy_link_span"><a id="privacy_policy" target="_blank" onfocus="this.blur()" onclick="fileManager.openBrowser(this.href);" >polityka prywatności</a></span><span id="eula_link_span"><a id="eulaLink" target="_blank" onfocus="this.blur()" onclick="fileManager.openBrowser(this.href);" >umowa licencyjna</a></span><span id="sdk_privacy_link_span"><a id="sdk_privacy_policy" target="_blank" onfocus="this.blur()" onclick="fileManager.openBrowser(this.href);" >SDK - polityka prywatności</a></span>
 
 [licensePage]
 LICENSE_TITLE=Umowa licencyjna

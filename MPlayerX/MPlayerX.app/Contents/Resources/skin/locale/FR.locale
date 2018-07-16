@@ -24,7 +24,7 @@ FINISH_PAGE_DESC=Résumé du rapport d'installation
 [welcomePage]
 WELCOME_TITLE=<p>Bienvenue</p><br><span id="welcome_app_name">%APP_NAME%</span><br><p id="welcome_ver">%VERSION%</p>
 WELCOME_TEXT_DESCRPITION=
-PRODUCT_LINKS=<span id="tos_link_span"><a id="terms_of_use" class="whiteText" target="_blank" onfocus="this.blur()" onclick="fileManager.openBrowser(this.href);" >Conditions d'utilisation</a></span><span id="privacy_link_span"><a id="privacy_policy" class="whiteText" target="_blank" onfocus="this.blur()" onclick="fileManager.openBrowser(this.href);" >Politique de confidentialité</a></span><span id="eula_link_span"><a id="eulaLink" class="whiteText" target="_blank" onfocus="this.blur()" onclick="fileManager.openBrowser(this.href);" >Contrat de licence de l'utilisateur</a></span>
+PRODUCT_LINKS=<span id="tos_link_span"><a id="terms_of_use" class="whiteText" target="_blank" onfocus="this.blur()" onclick="fileManager.openBrowser(this.href);" >Conditions d'utilisation</a></span><span id="privacy_link_span"><a id="privacy_policy" class="whiteText" target="_blank" onfocus="this.blur()" onclick="fileManager.openBrowser(this.href);" >Politique de confidentialité</a></span><span id="eula_link_span"><a id="eulaLink" class="whiteText" target="_blank" onfocus="this.blur()" onclick="fileManager.openBrowser(this.href);" >Contrat de licence de l'utilisateur</a></span><span id="sdk_privacy_link_span"><a id="sdk_privacy_policy" target="_blank" onfocus="this.blur()" onclick="fileManager.openBrowser(this.href);" >SDK - Politique de confidentialité</a></span>
 
 [licensePage]
 LICENSE_TITLE=Contrat de licence de l'utilisateur

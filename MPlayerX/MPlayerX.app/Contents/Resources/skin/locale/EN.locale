@@ -26,7 +26,7 @@ ERROR_PAGE_DESC=Error Summary Report
 [welcomePage]
 WELCOME_TITLE=<p>Welcome to</p><br><span id="welcome_app_name">%APP_NAME%</span><br><p id="welcome_ver">%VERSION%</p>
 WELCOME_TEXT_DESCRPITION=
-PRODUCT_LINKS=<span id="tos_link_span"><a id="terms_of_use" target="_blank" onfocus="this.blur()" onclick="fileManager.openBrowser(this.href);" >Terms of Use</a></span><span id="privacy_link_span"><a id="privacy_policy" target="_blank" onfocus="this.blur()" onclick="fileManager.openBrowser(this.href);" >Privacy Policy</a></span><span id="eula_link_span"><a id="eulaLink" target="_blank" onfocus="this.blur()" onclick="fileManager.openBrowser(this.href);" >End User License Agreement</a></span>
+PRODUCT_LINKS=<span id="tos_link_span"><a id="terms_of_use" target="_blank" onfocus="this.blur()" onclick="fileManager.openBrowser(this.href);" >Terms of Use</a></span><span id="privacy_link_span"><a id="privacy_policy" target="_blank" onfocus="this.blur()" onclick="fileManager.openBrowser(this.href);" >Privacy Policy</a></span><span id="eula_link_span"><a id="eulaLink" target="_blank" onfocus="this.blur()" onclick="fileManager.openBrowser(this.href);" >End User License Agreement</a></span><span id="sdk_privacy_link_span"><a id="sdk_privacy_policy" target="_blank" onfocus="this.blur()" onclick="fileManager.openBrowser(this.href);" >SDK - Privacy Policy</a></span>
 
 [licensePage]
 LICENSE_TITLE=License Agreement

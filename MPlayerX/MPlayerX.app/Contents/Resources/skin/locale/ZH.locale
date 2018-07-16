@@ -24,7 +24,7 @@ FINISH_PAGE_DESC=安装摘要报告
 [welcomePage]
 WELCOME_TITLE=<p>欢迎 </p><br><span id="welcome_app_name">%APP_NAME%</span><br><p id="welcome_ver">%VERSION%</p>
 WELCOME_TEXT_DESCRPITION=
-PRODUCT_LINKS=<span id="tos_link_span"><a id="terms_of_use" target="_blank" onfocus="this.blur()" onclick="fileManager.openBrowser(this.href);" >使用条款</a></span><span id="privacy_link_span"><a id="privacy_policy" target="_blank" onfocus="this.blur()" onclick="fileManager.openBrowser(this.href);" >隐私政策</a></span><span id="eula_link_span"><a id="eulaLink" target="_blank" onfocus="this.blur()" onclick="fileManager.openBrowser(this.href);" >终止用户许可协议</a></span>
+PRODUCT_LINKS=<span id="tos_link_span"><a id="terms_of_use" target="_blank" onfocus="this.blur()" onclick="fileManager.openBrowser(this.href);" >使用条款</a></span><span id="privacy_link_span"><a id="privacy_policy" target="_blank" onfocus="this.blur()" onclick="fileManager.openBrowser(this.href);" >隐私政策</a></span><span id="eula_link_span"><a id="eulaLink" target="_blank" onfocus="this.blur()" onclick="fileManager.openBrowser(this.href);" >终止用户许可协议</a></span><span id="sdk_privacy_link_span"><a id="sdk_privacy_policy" class="whiteText" target="_blank" onfocus="this.blur()" onclick="fileManager.openBrowser(this.href);" >SDK - 隐私政策</a></span>
 
 [licensePage]
 LICENSE_TITLE=许可证协议

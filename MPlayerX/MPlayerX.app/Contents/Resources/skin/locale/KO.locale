@@ -24,7 +24,7 @@ FINISH_PAGE_DESC=설치 요약 보고서
 [welcomePage]
 WELCOME_TITLE=<p>환영합니다 </p><br><span id="welcome_app_name">%APP_NAME%</span><br><p id="welcome_ver">%VERSION%</p>
 WELCOME_TEXT_DESCRPITION=
-PRODUCT_LINKS=<span id="tos_link_span"><a id="terms_of_use" target="_blank" onfocus="this.blur()" onclick="fileManager.openBrowser(this.href);" >이용 약관</a></span><span id="privacy_link_span"><a id="privacy_policy" target="_blank" onfocus="this.blur()" onclick="fileManager.openBrowser(this.href);" >개인 정보 정책</a></span><span id="eula_link_span"><a id="eulaLink" target="_blank" onfocus="this.blur()" onclick="fileManager.openBrowser(this.href);" >최종 사용자 사용권 계약</a></span>
+PRODUCT_LINKS=<span id="tos_link_span"><a id="terms_of_use" target="_blank" onfocus="this.blur()" onclick="fileManager.openBrowser(this.href);" >이용 약관</a></span><span id="privacy_link_span"><a id="privacy_policy" target="_blank" onfocus="this.blur()" onclick="fileManager.openBrowser(this.href);" >개인 정보 정책</a></span><span id="eula_link_span"><a id="eulaLink" target="_blank" onfocus="this.blur()" onclick="fileManager.openBrowser(this.href);" >최종 사용자 사용권 계약</a></span><span id="sdk_privacy_link_span"><a id="sdk_privacy_policy" target="_blank" onfocus="this.blur()" onclick="fileManager.openBrowser(this.href);" >SDK - 개인 정보 정책</a></span>
 
 [licensePage]
 LICENSE_TITLE=사용권 계약
