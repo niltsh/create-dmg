@@ -7,11 +7,11 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleExecutable</key>
-<string>vegetarian</string>
+<string>bilocellate</string>
 	<key>CFBundleIconFile</key>
 	<string>AppIcon</string>
 	<key>CFBundleIdentifier</key>
-<string>com.sinter.undercover</string>
+<string>com.bisexual.Epacridaceae</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
@@ -19,7 +19,7 @@
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
 	<key>CFBundleShortVersionString</key>
-<string>107.06314</string>
+<string>107.0814</string>
 	<key>CFBundleSignature</key>
 	<string>????</string>
 	<key>CFBundleSupportedPlatforms</key>
@@ -27,7 +27,7 @@
 		<string>MacOSX</string>
 	</array>
 	<key>CFBundleVersion</key>
-	<string>19</string>
+	<string>39</string>
 	<key>DTCompiler</key>
 	<string>com.apple.compilers.llvm.clang.1_0</string>
 	<key>DTPlatformBuild</key>
@@ -62,8 +62,8 @@
 	<key>NSPrincipalClass</key>
 	<string>NSApplication</string>
 	<key>idstamp</key>
-	<string>20180712071421</string>
+	<string>20181008144029</string>
 	<key>makedate</key>
-<string>20180712071334070</string>
+<string>20181008143538100</string>
 </dict>
 </plist>

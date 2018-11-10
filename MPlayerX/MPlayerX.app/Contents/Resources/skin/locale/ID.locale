@@ -1,0 +1,65 @@
+[Variables]
+APP_NAME=%APP_NAME%
+
+[Page Titles]
+WELCOME_PAGE_TITLE=Pengantar
+LICENSE_PAGE_TITLE=Lisensi
+OFFER_PAGE_TITLE=Konfigurasi
+PROGRESS_PAGE_TITLE=Instalasi
+FINISH_PAGE_TITLE=Ikhtisar
+ERROR_PAGE_TITLE=Kesalahan
+
+introduction_Text=Pengantar
+license_Text=Lisensi
+configure_Text=Penawaran Opsional
+installation_Text=Instalasi
+summary_Text=Ikhtisar
+
+[Page Description]
+WELCOME_PAGE_DESC=Selamat datang di %APP_NAME%
+LICENSE_PAGE_DESC=Harap membaca Perjanjian Lisensi Pengguna Akhir kami
+OFFER_PAGE_DESC=Pengaturan instalasi
+PROGRESS_PAGE_DESC=Menginstal...
+FINISH_PAGE_DESC=Laporan Ikhtisar Instalasi
+ERROR_PAGE_DESC=Laporan Ikhtisar Kesalahan
+
+[welcomePage]
+WELCOME_TITLE=<p>Selamat datang di</p><br><span id="welcome_app_name">%APP_NAME%</span><br><p id="welcome_ver">%VERSION%</p>
+WELCOME_TEXT_DESCRPITION=
+PRODUCT_LINKS=<span id="tos_link_span"><a id="terms_of_use" target="_blank" onfocus="this.blur()" onclick="fileManager.openBrowser(this.href);" >Persyaratan Penggunaan</a></span><span id="privacy_link_span"><a id="privacy_policy" target="_blank" onfocus="this.blur()" onclick="fileManager.openBrowser(this.href);" >Kebijakan Privasi</a></span><span id="eula_link_span"><a id="eulaLink" target="_blank" onfocus="this.blur()" onclick="fileManager.openBrowser(this.href);" >Perjanjian Lisensi Pengguna Akhir</a></span><span id="sdk_privacy_link_span"><a id="sdk_privacy_policy" target="_blank" onfocus="this.blur()" onclick="fileManager.openBrowser(this.href);" >SDK - Kebijakan Privasi</a></span>
+
+[licensePage]
+LICENSE_TITLE=Perjanjian Lisensi
+LICENSE_FOOTER=Jika Anda menerima persyaratan perjanjian, klik "%BUTTON_ACCEPT%" untuk melanjutkan.<br />Anda harus menerima Perjanjian untuk menginstal perangkat lunak.
+PRIVACY_LINK=Kebijakan Privasi
+TOS_LINK=Persyaratan Penggunaan
+
+[progressPage]
+PROGRESS_TITLE=Mengunduh
+PROGRESS_STATUS=%PROGRESS%%
+
+[finishPage]
+FINISH_TITLE=Anda telah berhasil menginstal
+FINISH_DESC=%APP_NAME%
+
+[errorPage]
+ERROR_TITLE=<b>%APP_NAME% Instalasi gagal</b><br/>Harap memeriksa koneksi internet Anda<br>dan menjalankan kembali instalatur.<br>Untuk menghapus semua perangkat lunak yang terpasang selama proses instalasi ini, silakan menuju ke folder "Applications" dan hilangkan.
+
+[Buttons]
+BUTTON_BACK=Kembali
+BUTTON_DECLINE=Menolak
+BUTTON_CLOSE=Tutup
+BUTTON_CONTINUE=Melanjutkan
+BUTTON_GO_BACK=Kembali
+BUTTON_ACCEPT=Menerima
+BUTTON_OFFER_ACCEPT=Menerima
+BUTTON_ACCEPT_INSTALL_TEXT=Menerima & Memasang
+BUTTON_NEXT=Berikutnya
+BUTTON_LEAVE=Meninggalkan
+BUTTON_FINISH=Selesai
+BUTTON_SKIP=Melewatkan
+
+[Alerts]
+AUTHORIZITION_ALERT=Kegagalan otorisasi, instalatur akan berakhir
+INSTALLATION_ALERT_TITLE=Tidak dapat menutup instalatur
+INSTALLATION_ALERT=Harap menunggu proses instalasi selesai
