@@ -20,7 +20,7 @@ if [[ -e ${WORKDIR}/MPlayerX.app ]]; then
 	echo ""
 
 	echo "===============Make the DMG==============="
-	./create-dmg --volname MPlayerX --background resources/dmg_background.jpg  --window-size 548 432 --icon-size 160 --icon MPlayerX 274 216 MPlayerX.dmg ${WORKDIR}/	
+	./create-dmg --volname MPlayerX --background resources/dmg_background.jpg  --window-size 548 432 --icon-size 192 --icon MPlayerX 274 216 MPlayerX.dmg ${WORKDIR}/	
 else 
 	echo "installer app does not exist."
 	exit 1
