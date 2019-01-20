@@ -18,7 +18,7 @@ summary_Text=Resumo
 WELCOME_PAGE_DESC=Bem vindo ao Instalador de %APP_NAME%
 LICENSE_PAGE_DESC=Por favor, leia nosso Acordo de Licença ao Usuário Final
 OFFER_PAGE_DESC=Configurando a instalação
-PROGRESS_PAGE_DESC=Instalando %APP_NAME%...
+PROGRESS_PAGE_DESC=Instalando...
 FINISH_PAGE_DESC=Instalação do Relatório de Resumo
 
 [welcomePage]
@@ -33,7 +33,7 @@ PRIVACY_LINK=Política de Privacidade
 TOS_LINK=Termos de Uso
 
 [progressPage]
-PROGRESS_TITLE=Downloading
+PROGRESS_TITLE=Baixando
 PROGRESS_STATUS=%PROGRESS%%
 
 [finishPage]

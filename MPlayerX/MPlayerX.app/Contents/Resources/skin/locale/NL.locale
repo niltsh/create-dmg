@@ -18,7 +18,7 @@ summary_Text=Overzicht
 WELCOME_PAGE_DESC=Welkom bij het installatieprogramma van %APP_NAME%
 LICENSE_PAGE_DESC=Lees onze Eindgebruiker Licentie-overeenkomst
 OFFER_PAGE_DESC=Installatie wordt voorbereid
-PROGRESS_PAGE_DESC=%APP_NAME% wordt geïnstalleerd...
+PROGRESS_PAGE_DESC=Installeren...
 FINISH_PAGE_DESC=Overzichtsrapport van de installatie
 
 [welcomePage]

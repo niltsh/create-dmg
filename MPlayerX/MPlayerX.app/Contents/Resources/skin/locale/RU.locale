@@ -18,7 +18,7 @@ summary_Text=Сводка
 WELCOME_PAGE_DESC=Добро пожаловать в установщик %APP_NAME% 
 LICENSE_PAGE_DESC=Пожалуйста, ознакомьтесь с лицензионным соглашением конечного пользователя 
 OFFER_PAGE_DESC=Настройка программы
-PROGRESS_PAGE_DESC=Установка %APP_NAME%...
+PROGRESS_PAGE_DESC=Установка...
 FINISH_PAGE_DESC=Отчет об установке
 
 [welcomePage]

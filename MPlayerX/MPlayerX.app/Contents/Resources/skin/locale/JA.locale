@@ -18,7 +18,7 @@ summary_Text=概要
 WELCOME_PAGE_DESC=%APP_NAME%インストーラにようこそ
 LICENSE_PAGE_DESC=弊社のソフトウェア利用許諾契約をお読みください
 OFFER_PAGE_DESC=インストールをセットアップ中
-PROGRESS_PAGE_DESC=%APP_NAME%をインストール中…
+PROGRESS_PAGE_DESC=をインストール中...
 FINISH_PAGE_DESC=インストールの概要レポート
 
 [welcomePage]

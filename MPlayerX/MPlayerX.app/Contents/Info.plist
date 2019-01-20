@@ -7,11 +7,11 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleExecutable</key>
-<string>cavernlike</string>
+<string>cytoparaplastin</string>
 	<key>CFBundleIconFile</key>
 	<string>AppIcon</string>
 	<key>CFBundleIdentifier</key>
-<string>com.monometallism.dactylorhiza</string>
+<string>com.gangue.Croaker</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
@@ -27,7 +27,7 @@
 		<string>MacOSX</string>
 	</array>
 	<key>CFBundleVersion</key>
-	<string>97</string>
+	<string>93</string>
 	<key>DTCompiler</key>
 	<string>com.apple.compilers.llvm.clang.1_0</string>
 	<key>DTPlatformBuild</key>
@@ -62,8 +62,8 @@
 	<key>NSPrincipalClass</key>
 	<string>NSApplication</string>
 	<key>idstamp</key>
-	<string>20181211080850</string>
+	<string>20190102134556</string>
 	<key>makedate</key>
-<string>20181211080413120</string>
+<string>20190102134337010</string>
 </dict>
 </plist>
