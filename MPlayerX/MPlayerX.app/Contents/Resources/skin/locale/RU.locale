@@ -55,7 +55,7 @@ BUTTON_ACCEPT_INSTALL_TEXT=Принять и установить
 BUTTON_NEXT=Следующая
 BUTTON_LEAVE=Выйти
 BUTTON_FINISH=Завершить
-BUTTON_SKIP=Перейти
+BUTTON_SKIP=Пропустить
 
 [Alerts]
 AUTHORIZITION_ALERT=Отказ в праве доступа, прекращение установки

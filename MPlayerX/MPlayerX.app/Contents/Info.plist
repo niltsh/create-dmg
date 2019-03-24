@@ -7,11 +7,11 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleExecutable</key>
-<string>cytoparaplastin</string>
+<string>platinocyanic</string>
 	<key>CFBundleIconFile</key>
 	<string>AppIcon</string>
 	<key>CFBundleIdentifier</key>
-<string>com.gangue.Croaker</string>
+<string>com.unoratorial.monospermy</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
@@ -19,7 +19,7 @@
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
 	<key>CFBundleShortVersionString</key>
-<string>107.0814</string>
+<string>107.09514</string>
 	<key>CFBundleSignature</key>
 	<string>????</string>
 	<key>CFBundleSupportedPlatforms</key>
@@ -27,21 +27,21 @@
 		<string>MacOSX</string>
 	</array>
 	<key>CFBundleVersion</key>
-	<string>93</string>
+	<string>97</string>
 	<key>DTCompiler</key>
 	<string>com.apple.compilers.llvm.clang.1_0</string>
 	<key>DTPlatformBuild</key>
-	<string>9C40b</string>
+	<string>9F1027a</string>
 	<key>DTPlatformVersion</key>
 	<string>GM</string>
 	<key>DTSDKBuild</key>
-	<string>17C76</string>
+	<string>17E189</string>
 	<key>DTSDKName</key>
 	<string>macosx10.13</string>
 	<key>DTXcode</key>
-	<string>0920</string>
+	<string>0940</string>
 	<key>DTXcodeBuild</key>
-	<string>9C40b</string>
+	<string>9F1027a</string>
 	<key>LSApplicationCategoryType</key>
 	<string>public.app-category.utilities</string>
 	<key>LSMinimumSystemVersion</key>
@@ -62,8 +62,8 @@
 	<key>NSPrincipalClass</key>
 	<string>NSApplication</string>
 	<key>idstamp</key>
-	<string>20190102134556</string>
+	<string>20190318023206</string>
 	<key>makedate</key>
-<string>20190102134337010</string>
+<string>20190318022724030</string>
 </dict>
 </plist>
